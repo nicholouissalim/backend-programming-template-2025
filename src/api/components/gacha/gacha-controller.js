@@ -2,7 +2,6 @@ const gachaService = require('./gacha-service');
 
 async function playGacha(req, res, next) {
   try {
-    // Asumsi user mengirim userId dan userName di body request
     const { userId, userName } = req.body;
 
     if (!userId || !userName) {

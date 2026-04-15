@@ -33,7 +33,6 @@ async function playGacha(userId, userName) {
     }
   }
 
-  // 3. Simpan riwayat eksekusi ke database (baik menang maupun kalah)
   await gachaRepository.recordGacha({
     userId,
     userName,
