@@ -29,7 +29,9 @@ module.exports = {
   getUsers,
   getUser,
   emailExists,
-  createUser,
+  createUser, 
   updateUser,
   deleteUser,
 };
+
+
