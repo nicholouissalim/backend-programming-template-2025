@@ -15,7 +15,7 @@ module.exports = {
   api: {
     prefix: '/api',
   },
-  port: process.env.PORT || 5000,
+  port: process.env.PORT || 6000,
   database: {
     connection: process.env.DB_CONNECTION,
     name: process.env.DB_NAME,
